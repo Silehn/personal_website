@@ -1,0 +1,8 @@
+body {
+  background-color: #eeeeee; /* Vaaleanharmaa taustaväri */
+  font-family: Arial, sans-serif; /* Selkeämpi fontti */
+}
+
+h1 {
+  color: navy; /* Otsikon väri laivastonsiniseksi */
+}
