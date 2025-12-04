@@ -1,8 +1,27 @@
 body {
-  background-color: #aaaaaa; /* Vaaleanharmaa taustaväri */
+  background-color: #ffffff; /* Vaaleanharmaa taustaväri */
   font-family: Arial, sans-serif; /* Selkeämpi fontti */
+}
+
+.vihrea-tausta {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #4CAF50; /* Vaaleanharmaa taustaväri headerille */
+  text-align: center; /* Keskitetty teksti headerissä */
+  height: 100px; /* Headerin korkeus */
+  row-gap: 0px;
+  padding: 20px; /* Sisäinen täyte headerissä */
 }
 
 h1 {
   color: navy; /* Otsikon väri laivastonsiniseksi */
+}
+
+h2 {
+  color: #FFFFFF
+}
+
+h6 {
+  color: #FFFFFF
 }
