@@ -1,0 +1,16 @@
+# 1. Set the default homepage
+DirectoryIndex index.html index.php
+
+# 2. Prevent directory browsing (Security)
+Options -Indexes
+
+# 3. Force HTTPS and WWW-prefix (SEO & Security)
+RewriteEngine On
+RewriteCond % {HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.yourdomain.com/$1 [L,R=301]
+
+# 4. Remove .html extension from URLs (Optional/Clean URLs)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
