@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mäkimattila | Elite Web Design</title>
+<link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        charcoal: '#1A1A1A',
+                        success: '#0052FF',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#F9F9F9] font-sans antialiased">
+    <custom-navbar></custom-navbar>
+    
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center px-6">
+        <div class="max-w-4xl text-center">
+            <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-charcoal mb-6">
+                Huippuluokan verkkosivut. Toimitettu päivissä, ei kuukausissa.
+</h1>
+            <p class="text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl mx-auto">
+                Yhdistämme maailmanluokan designin tekoälytehokkuuteen kunnianhimoisille brändeille.
+</p>
+            <div class="flex gap-4 justify-center">
+                <a href="#" class="bg-success hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 transform hover:-translate-y-1">
+                    Pyydä Tarjous
+</a>
+                <a href="portfolio.html" class="border-2 border-charcoal text-charcoal px-8 py-4 rounded-lg font-medium transition-all duration-300 hover:bg-charcoal hover:text-white">
+                    Katso Portfolio
+</a>
+</div>
+        </div>
+    </section>
+    <!-- The Edge Section -->
+    <section class="py-24 bg-white my-12">
+<div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-charcoal mb-16">Arkkitehtoninen Lähestymistapamme</h2>
+<div class="grid md:grid-cols-3 gap-12">
+                <div class="bg-[#F9F9F9] p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <div class="w-14 h-14 bg-success bg-opacity-10 rounded-lg flex items-center justify-center mb-6">
+                        <i data-feather="zap" class="text-success w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-charcoal mb-3">Salamaa Nopeampaa</h3>
+                    <p class="text-gray-600">Tekoälyavusteinen kehitys toimittaa huippuluokan sivustot 1/4 osassa alan standardiajasta.</p>
+</div>
+                
+                <div class="bg-[#F9F9F9] p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <div class="w-14 h-14 bg-success bg-opacity-10 rounded-lg flex items-center justify-center mb-6">
+                        <i data-feather="target" class="text-success w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-charcoal mb-3">Kirurginen Tarkkuus</h3>
+                    <p class="text-gray-600">Jokainen pikseli asetetaan tarkoituksellisesti algoritmimme avulla.</p>
+</div>
+                
+                <div class="bg-[#F9F9F9] p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <div class="w-14 h-14 bg-success bg-opacity-10 rounded-lg flex items-center justify-center mb-6">
+                        <i data-feather="award" class="text-success w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-charcoal mb-3">Luksuskokemus</h3>
+                    <p class="text-gray-600">Viiden tähden palvelu ja henkilökohtainen huomio brändivisioonillesi.</p>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Showcase -->
+    <section class="py-24 bg-charcoal text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Digitaaliset Mestariteokset</h2>
+            <p class="text-center text-gray-300 mb-16 max-w-2xl mx-auto">Valikoituja teoksia premium-verkkokokemusten portfoliostamme</p>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <img src="http://static.photos/technology/1024x576/1" alt="Tech Website" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-charcoal font-bold text-xl mb-2">NeuralTech Solutions</h3>
+                        <p class="text-gray-600">AI SaaS Platform</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <img src="http://static.photos/finance/1024x576/2" alt="Finance Website" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-charcoal font-bold text-xl mb-2">Horizon Capital</h3>
+                        <p class="text-gray-600">Investment Firm</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <img src="http://static.photos/education/1024x576/3" alt="Education Website" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-charcoal font-bold text-xl mb-2">Lumina Academy</h3>
+                        <p class="text-gray-600">Premium Education</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-charcoal mb-16">Trusted by Visionary Brands</h2>
+            
+            <div class="flex flex-wrap justify-center gap-12 mb-24">
+                <div class="text-gray-400 text-2xl font-light">Stripe</div>
+                <div class="text-gray-400 text-2xl font-light">Airbnb</div>
+                <div class="text-gray-400 text-2xl font-light">Notion</div>
+                <div class="text-gray-400 text-2xl font-light">Figma</div>
+                <div class="text-gray-400 text-2xl font-light">Slack</div>
+            </div>
+            
+            <div class="max-w-3xl mx-auto bg-[#F9F9F9] p-12 rounded-lg">
+                <div class="flex items-center mb-6">
+                    <img src="http://static.photos/people/200x200/1" alt="Client" class="w-16 h-16 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold text-charcoal">Sarah Chen</h4>
+                        <p class="text-gray-600">CEO, NeuralTech</p>
+                    </div>
+                </div>
+                <p class="text-xl text-gray-700 italic">
+                    "PixelPerfect AI delivered our new site in just 9 days - a process that typically takes agencies 3 months. The quality exceeded our wildest expectations and has directly contributed to our Series B funding round."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-24 bg-charcoal text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Architectural Tiers</h2>
+            <p class="text-center text-gray-300 mb-16 max-w-2xl mx-auto">Select the blueprint that matches your ambition</p>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white text-charcoal p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Standard</h3>
+                    <p class="text-4xl font-bold mb-6">$9,500</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-success mr-2 w-5 h-5"></i>
+                            <span>5-7 Business Day Delivery</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-success mr-2 w-5 h-5"></i>
+                            <span>3 Design Iterations</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-success mr-2 w-5 h-5"></i>
+                            <span>5-Page Website</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="block text-center bg-success hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300">
+                        Start Standard Project
+                    </a>
+                </div>
+                
+                <div class="bg-success text-white p-8 rounded-lg shadow-lg transform md:-translate-y-4">
+                    <div class="absolute top-0 right-0 bg-charcoal text-white px-4 py-1 rounded-bl-lg rounded-tr-lg text-sm font-medium">
+                        Most Popular
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Bespoke</h3>
+                    <p class="text-4xl font-bold mb-6">$24,000+</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-white mr-2 w-5 h-5"></i>
+                            <span>Custom Timeline</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-white mr-2 w-5 h-5"></i>
+                            <span>Unlimited Iterations</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check" class="text-white mr-2 w-5 h-5"></i>
+                            <span>Enterprise-Grade Solution</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="block text-center bg-white hover:bg-gray-100 text-charcoal px-6 py-3 rounded-lg font-medium transition-all duration-300">
+                        Start Bespoke Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
