@@ -18,7 +18,7 @@ class CustomNavbar extends HTMLElement {
                 nav {
                     max-width: 1440px;
                     margin: 0 auto;
-                    padding: 1.5rem 2rem;
+                    padding: 1.0rem 1.5rem;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
