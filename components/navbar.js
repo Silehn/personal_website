@@ -76,10 +76,9 @@ class CustomNavbar extends HTMLElement {
             <nav>
                     <a href="https://makimattila.fi" class="logo">Mäkimattila</a>
 <div class="nav-links">
-                <a href="process.html">Prosessi</a>
+                <a href="process.html">Prosessit</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="pricing.html">Hinnasto</a>
-                <a href="pricing.html">Miksei näy</a>
 </div>
 <a href="contact.html" class="cta-button">Ota Yhteyttä</a>
 </nav>
