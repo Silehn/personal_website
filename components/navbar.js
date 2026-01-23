@@ -79,6 +79,7 @@ class CustomNavbar extends HTMLElement {
                 <a href="process.html">Prosessi</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="pricing.html">Hinnasto</a>
+                <a href="pricing.html">Hinnasto</a>
 </div>
 <a href="contact.html" class="cta-button">Ota Yhteyttä</a>
 </nav>
