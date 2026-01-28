@@ -18,7 +18,7 @@ class CustomNavbar extends HTMLElement {
                 nav {
                     max-width: 1440px;
                     margin: 0 auto;
-                    padding: 1.5rem 2rem;
+                    padding: 1.0rem 1.5rem;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
@@ -76,7 +76,7 @@ class CustomNavbar extends HTMLElement {
             <nav>
                     <a href="https://makimattila.fi" class="logo">Mäkimattila</a>
 <div class="nav-links">
-                <a href="process.html">Prosessi</a>
+                <a href="process.html">Prosessit</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="pricing.html">Hinnasto</a>
 </div>
